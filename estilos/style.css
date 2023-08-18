@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+/*
+https://favicon.io/favicon-converter/
+
+Paleta de cores #225370 #91CFF2 #48B2F0 #436070 #398DBD
+
+https://www.petz.com.br/blog/pets/racas-de-gatos/
+
+https://www.petz.com.br/blog/especies/aves-domesticas-saiba-quais-sao-as-especies-permitidas/
+
+https://portalvet.royalcanin.com.br/saude-e-nutricao/outros-assuntos/racas-mais-populares-no-brasil/
+
+https://meusanimais.com.br/nove-tipos-ratos-domesticos/
+
+https://www.flickr.com/photos/marcodede/205030304 imagem passaro diamante de gould
+
+https://commons.wikimedia.org/wiki/File:Manon_ave.JPG imagem passaro manon
+
+https://lardocelar.blog.br/a-importancia-de-adotar-um-animal-de-estimacao-em-vez-de-comprar/ noticia pag. home
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');/*Fonte Paragraf e links*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');/*Fonte Titulos*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: #225370;
+    --cor1: #91CFF2;
+    --cor2: #48B2F0;
+    --cor3: #436070;
+    --cor4: #398DBD;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor0));
+    padding-bottom: 2px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+header > h1{
+    text-align: center;
+    padding: 10px;
+}
+
+header > h2{
+    text-align: center;
+    padding: 10px;
+}
+
+nav.h{
+    padding: 10px;
+    box-shadow: 0px 0px 5px white;
+    transition-duration: .5s;
+}
+
+nav{
+    padding: 10px 0px 10px 0px;
+}
+
+main{
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+main img{
+    height: 600px;
+    width: 600px;
+}
+
+p{
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer > nav > a{
+    padding: 10px;
+    color: black;
+}
+
+section{
+    background-color: var(--cor2);
+    line-height: 1.5em;
+    text-indent: 30px;
+    border-radius: 15px;
+}
+
+article > h2{
+    text-decoration: underline;
+    background-color: white;
+    border-radius: 15px;
+}
+
+mark{
+    background-color: white;
+}
+
+article > ul{
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: .8em;
+}
+
+li{
+    text-decoration: underline;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: #48B2F0;
+    transition-duration: .5s;
+    font-family: 'Raleway', sans-serif;
+    font-size: .8em;
+    padding: 0px 10px 0px 10px;
+}
+
+nav > a:hover{
+    background-color: white;
+}
+
+/*(a{
+    color: rgba(128, 128, 128, 0.527);
+}*/
+
+footer{
+    background-color: gray;
+    border-radius: 15px;
+}
