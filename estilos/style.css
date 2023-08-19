@@ -29,6 +29,11 @@ https://lardocelar.blog.br/a-importancia-de-adotar-um-animal-de-estimacao-em-vez
     padding: 0px;
 }
 
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
 :root{
     --cor0: #225370;
     --cor1: #91CFF2;
