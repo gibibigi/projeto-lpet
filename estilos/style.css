@@ -91,12 +91,17 @@ article > h2{
 
 mark{
     background-color: white;
+    border-radius: 6px;
 }
 
 article > ul{
     list-style-type: none;
     font-family: 'Raleway', sans-serif;
     font-size: .8em;
+}
+
+img{
+    border-radius: 10px;
 }
 
 li{
@@ -124,6 +129,7 @@ a{
 
 nav > a:hover{
     background-color: white;
+    border-radius: 10px;
 }
 
 /*(a{
